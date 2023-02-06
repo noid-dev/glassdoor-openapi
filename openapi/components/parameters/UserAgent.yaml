@@ -1,8 +1,0 @@
-name: useragent
-in: query
-description: |
-  The User-Agent (browser) of the end user to whom the API results will be shown. 
-  Note that you can can obtain this from the "User-Agent" HTTP request header from the end-user.
-schema:
-  type: string
-  default: SwaggerUI/4.15.5

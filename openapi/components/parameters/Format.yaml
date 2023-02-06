@@ -1,9 +1,0 @@
-name: format
-in: query
-required: true
-description: Either xml or json as you prefer.
-schema:
-  type: string
-  enum:
-    - json
-    - xml
