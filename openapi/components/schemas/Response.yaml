@@ -1,0 +1,14 @@
+type: object
+required:
+  - success
+  - status
+properties:
+  success:
+    type: boolean
+    description: Operation outcome.
+  status:
+    type: string
+    description: Response status.
+  response:
+    type: string
+    description: Response JSON depending on the action.

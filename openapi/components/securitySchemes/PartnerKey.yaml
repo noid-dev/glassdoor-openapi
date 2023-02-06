@@ -1,0 +1,4 @@
+type: apiKey
+in: query
+name: t.k
+description: Your partner key, as assigned by Glassdoor.

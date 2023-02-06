@@ -1,0 +1,11 @@
+name: v
+in: query
+required: true
+description: |
+  The API version. 
+  The current version is 1 except for jobs, which is currently version 1.1.
+schema:
+  type: number
+  enum:
+    - 1
+    - 1.1

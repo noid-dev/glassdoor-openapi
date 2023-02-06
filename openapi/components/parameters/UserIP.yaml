@@ -1,0 +1,6 @@
+name: userip
+in: query
+description: The IP address of the end user to whom the API results will be shown.
+schema:
+  type: string
+  default: 0.0.0.0

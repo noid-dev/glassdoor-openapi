@@ -1,0 +1,22 @@
+get:
+  summary: Get user information.
+  operationId: getUser
+  description: Returns information about the user.
+  tags:
+    - Users
+  parameters:
+    - $ref: ../components/parameters/Action.yaml
+    - $ref: ../components/parameters/Format.yaml
+    - $ref: ../components/parameters/UserAgent.yaml
+    - $ref: ../components/parameters/UserIP.yaml
+    - $ref: ../components/parameters/Version.yaml
+
+  responses:
+    200:
+      description: OK
+      content:
+        application/json:
+          schema:
+            $ref: ../components/schemas/Response.yaml
+    403:
+      $ref: ../components/responses/Forbidden.yaml
